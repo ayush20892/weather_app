@@ -13,6 +13,7 @@ nav {
   border: 2px var(--primary_colour);
   padding: 0rem 10rem;
   margin: auto;
+  width: 100%;
 }
 
 .header-title {
@@ -58,7 +59,7 @@ textarea {
   margin: 4rem 20rem; 
 }
 
-#btn-translate {
+#btn-data {
   color: var(--secondary-colour);
   font-weight: bolder;
   font-size: x-large;
