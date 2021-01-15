@@ -2,7 +2,7 @@ var btndata = document.querySelector("#btn-data");
 var txtinput = document.querySelector("#txt-input");
 var output = document.querySelector("#output");
 
-var serverURL ="api.openweathermap.org/data/2.5/weather?appid=10ec6923de1a815bc337ad1124aa4994&q="
+var serverURL ="https://api.openweathermap.org/data/2.5/weather?appid=10ec6923de1a815bc337ad1124aa4994&units=metric&q="
 
 function getURL(text)
 {
@@ -24,7 +24,7 @@ function clickEvetHandler()
       .then(response => response.json())
       .then(json => {
           var translatedText = json.main.temp;
-          outputDiv.innerText = translatedText; // output
+          output.innerText = translatedText; // output
          })
       .catch(errorHandler)
 };
