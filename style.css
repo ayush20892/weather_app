@@ -53,7 +53,7 @@ textarea {
     width: 50%;
     min-height: 0vh;
     margin-top: 1rem;
-    margin-left: 8rem;
+    margin-left: 5.5rem;
     font-size: large;
     padding: 0.3rem;
 }
@@ -81,7 +81,7 @@ textarea {
   box-sizing: border-box;
   width: 50%;
   margin-top: 1rem;
-  margin-left: 8rem;
+  margin-left: 5.5rem;
   padding: 0rem 1rem;
   padding-top: 0.6rem;
 }
@@ -100,6 +100,7 @@ footer {
 }
 
 .footer-pills {
-  padding: 0rem 1.6rem;
+  font-size: small;
+  padding: 0rem 0.7rem;
   color: #6155a6;
 }
