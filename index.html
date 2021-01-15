@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet">
   <title>Weather Update</title>
 </head>
+
 <body>
   <nav>
-    <img class="img" src="weather.svg" alt="weather">
-    <div class="header-title">Weather Update</div>
+    <!-- <img class="img" src="weather.svg" alt="weather"> -->
+    <div class="header-title">
+      Weather Update
+    </div>
   </nav>
-  <div class="ask">
-    <span class="city-name">
+  <div class="main">
+    <div class="city-name">
       Enter the City Name :
-    </span>
+    </div>
     <textarea name="city-name" id="txt-input"></textarea>
-  </div>
   <br>
   <button id="btn-data">
     Get Data
   </button>
   <br>
-    <div class="weather">
-      Current Weather :
-    </div>
-    <div id="output"></div>
-    <script src="app.js" type="text/javascript"></script>
+  <div class="weather">
+    Current Weather :
+  </div>
+  <div id="output"></div>
+  </div>
+  <script src="app.js" type="text/javascript"></script>
   <footer class="footer">
     <div class="footer-pills">
       <a class="footer-pills" href="https://www.linkedin.com/in/ayush-sharma-0b82b6169/">
@@ -42,10 +46,11 @@
       <br>
       <br>
       <div style="font-size: small;">
-      ©Ayush Sharma Production
-    </div>     
+        ©Ayush Sharma Production
+      </div>
 
     </div>
   </footer>
 </body>
+
 </html>

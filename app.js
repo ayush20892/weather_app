@@ -24,7 +24,7 @@ function clickEvetHandler()
       .then(response => response.json())
       .then(json => {
           var translatedText = json.main.temp;
-          output.innerText = translatedText; // output
+          output.innerText = translatedText+" °C"; // output
          })
       .catch(errorHandler)
 };
