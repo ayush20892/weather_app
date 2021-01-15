@@ -1,28 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
-  --primary-colour : #ffe6e6;
-  --secondary-colour : #433d3c;
+  --primary-colour: #ffe6e6;
+  --secondary-colour: #433d3c;
   --button: #a685e2;
+  --width-break: 600px;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 nav {
   background-color: var(--primary-colour);
-  border: 2px var(--primary_colour);
-  padding: 0rem 10rem;
-  margin: auto;
-  width: 100%;
+  text-align: center;
 }
 
 .header-title {
-  font-size: 50px;
+  font-size: 2rem;
   color: var(--secondary-colour);
   font-weight: bold;
-  position: absolute;
-  text-align: center;display:inline;   
-  padding: 2rem 10rem;
+  padding: 1.5rem;
 }
 
 .img {
@@ -33,49 +34,56 @@ nav {
   padding: 1rem 2rem;
 }
 
+.main{
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+  text-align: center;
+}
+
 .city-name {
   font-size: 20px;
   color: var(--secondary-colour);
   font-weight: bold;
-  position: absolute;
-  text-align: center;display:inline;   
-  margin: 3rem 20rem; 
 }
 
 textarea {
-  font-size: 20px;
-  border: 1px solid var(--secondary-colour);
-  width: 20%;
-  margin: 2rem 35rem;
-  padding: 0.3rem 0.5rem;
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    min-height: 0vh;
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+    font-size: large;
+    padding: 0.3rem;
 }
 
 .weather {
   font-size: 20px;
   color: var(--secondary-colour);
   font-weight: bold;
-  position: absolute;
-  text-align: center;display:inline;   
-  margin: 4rem 20rem; 
+  margin-top: 1rem;
 }
 
 #btn-data {
   color: var(--secondary-colour);
   font-weight: bolder;
-  font-size: x-large;
+  font-size: large;
   background-color: #ffabe1;
-  margin: 0rem 35rem;
-  width: 15%;
-  padding: 0.5rem;
+  margin: 2.5rem 0rem;
+  padding: 0.5rem 1rem;
   border-radius: 00.5rem;
 }
 
 #output {
   border: 1px solid black;
-  height: 3vh;
-  width: 20%;
-  margin: 4rem 35rem;
-  padding: 1rem;
+  height: 6vh;
+  box-sizing: border-box;
+  width: 50%;
+  margin-top: 1rem;
+  margin-left: 5.5rem;
+  padding: 0rem 1rem;
+  padding-top: 0.6rem;
 }
 
 a {
@@ -84,14 +92,15 @@ a {
 
 footer {
   position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 3rem;
-    background-color: var(--primary-colour);
-    text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding: 3rem;
+  background-color: var(--primary-colour);
+  text-align: center;
 }
 
 .footer-pills {
-  padding: 0rem 1.5rem;
+  font-size: small;
+  padding: 0rem 0.7rem;
   color: #6155a6;
 }
