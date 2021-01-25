@@ -49,14 +49,32 @@ nav {
 
 textarea {
     box-sizing: border-box;
-    display: block;
+    /* display: block; */
+    border-top-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
     width: 50%;
+    text-align: center;
     min-height: 0vh;
+    margin: auto;
     margin-top: 1rem;
-    margin-left: 5.5rem;
-    font-size: large;
+    font-size: x-large;
     padding: 0.3rem;
 }
+
+#output {
+  border: 1px solid black;
+  height: 6vh;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 4.5rem;
+  font-size: large;
+  padding: 0rem 1rem;
+  padding-top: 0.6rem;
+}
+
 
 .weather {
   font-size: 20px;
@@ -75,24 +93,14 @@ textarea {
   border-radius: 00.5rem;
 }
 
-#output {
-  border: 1px solid black;
-  height: 6vh;
-  box-sizing: border-box;
-  width: 50%;
-  margin-top: 1rem;
-  margin-left: 5.5rem;
-  padding: 0rem 1rem;
-  padding-top: 0.6rem;
-}
-
 a {
   text-decoration: none;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  /* bottom: 0; */
+  
   width: 100%;
   padding: 3rem;
   background-color: var(--primary-colour);
@@ -101,6 +109,7 @@ footer {
 
 .footer-pills {
   font-size: small;
-  padding: 0rem 0.7rem;
-  color: #6155a6;
+  padding: 0rem 0.9rem;
+  /* color: #6155a6; */
+  color: #433d3c;
 }
